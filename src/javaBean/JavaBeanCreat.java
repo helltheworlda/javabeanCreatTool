@@ -69,7 +69,7 @@ public class JavaBeanCreat {
 				 writer.write(" * @param " + str[0] + " " + str[2] + line);
 				 writer.write(" */");
 				 writer.write(line);
-				 writer.write("public void " + str[1] + " "
+				 writer.write("public void " + " "
 						 + "set" + str[0].substring(0, 1).toUpperCase()
 						 + str[0].substring(1) + "(" + str[1] + " " + str[0] + ")" + " {" + line);
 				 writer.write("    this." + str[0] + " = " + str[0] + ";" + line);
